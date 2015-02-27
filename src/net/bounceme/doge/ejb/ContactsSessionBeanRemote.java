@@ -12,7 +12,7 @@ import javax.ejb.Remote;
  * @author thufir
  */
 @Remote
-public interface NewSessionBeanRemoteRemote {
+public interface ContactsSessionBeanRemote {
 
     String businessMethod();
     
