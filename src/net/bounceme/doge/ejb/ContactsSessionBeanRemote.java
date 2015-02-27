@@ -14,6 +14,6 @@ import javax.ejb.Remote;
 @Remote
 public interface ContactsSessionBeanRemote {
 
-    String businessMethod();
+    String getAllContacts();
     
 }
